@@ -1,0 +1,47 @@
+:root {
+    --tinta: #0f1f3d;
+    --papel: #f4f6fa;
+    --branco: #ffffff;
+    --cobalto: #2547f5;
+    --sol: #ffc94a;
+    --texto: #33415c;
+    --borda: #dde3ee;
+    --titulo: "Bricolage Grotesque", Georgia, sans-serif;
+    --corpo: "Instrument Sans", system-ui, sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--corpo);
+    color: var(--texto);
+    background: var(--papel);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--titulo);
+    color: var(--tinta);
+    line-height: 1.1;
+}
+
+a {
+    color: inherit;
+}
+
+:focus-visible {
+    outline: 3px solid var(--cobalto);
+    outline-offset: 3px;
+}
