@@ -48,7 +48,7 @@ a {
 
 /* .container centraliza e limita a largura */
 .container{
-    width: min(1080px, 100%, -2rem);
+    width: min(1080px, 100% -2rem);
     margin-inline: auto;
 }
 
