@@ -45,3 +45,18 @@ a {
     outline: 3px solid var(--cobalto);
     outline-offset: 3px;
 }
+
+/* .container centraliza e limita a largura */
+.container{
+    width: min(1080px, 100%, -2rem);
+    margin-inline: auto;
+}
+
+section{
+    padding: 4.5rem 0;
+}
+
+h2{
+    font-size: clamp(1.7rem, 4vw, 2.4rem);
+    margin-bottom: 2rem;
+}
