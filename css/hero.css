@@ -36,9 +36,17 @@
     font-size: .95rem;
 }
 
+.nav nav a:hover{
+    color: goldenrod
+}
+
 .nav nav .btn {
     color: var(--tinta);
     padding: .55rem 1.1rem;
+}
+
+.nav nav .btn:hover{
+    color: var(--tinta);
 }
 
 /* Hero */
@@ -72,14 +80,14 @@
 
 /* Janela de navegador desenhada só com CSS */
 .janela {
-    background: var(--branco);
+    background: whitesmoke;
     border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 20px 50px rgba(0, 0, 0, .35);
 }
 
 .janela-barra {
-    background: var(--titulo);
+    background: var(--sol);
     padding: .6rem .8rem;
     display: flex;
     gap: .4rem;
@@ -91,4 +99,6 @@
     display: grid;
     gap: .7rem;
 }
+
+
 
