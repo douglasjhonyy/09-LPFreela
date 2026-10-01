@@ -20,7 +20,7 @@
     font-size: 2rem;
 }
 
-.logo span{
+.logo span {
     color: goldenrod;
 }
 
@@ -39,5 +39,56 @@
 .nav nav .btn {
     color: var(--tinta);
     padding: .55rem 1.1rem;
+}
+
+/* Hero */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 4rem 0 5rem;
+}
+
+.hero h1 {
+    color: var(--branco);
+    font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+    font-weight: 800;
+}
+
+.hero p {
+    color: #c9d3ea;
+    font-size: 1.15rem;
+    margin: 1.3rem 0 2rem;
+    max-width: 46ch;
+}
+
+.hero small {
+    display: block;
+    margin-top: 1rem;
+    color: #9fb0d4;
+}
+
+/* Janela de navegador desenhada só com CSS */
+.janela {
+    background: var(--branco);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .35);
+}
+
+.janela-barra {
+    background: var(--titulo);
+    padding: .6rem .8rem;
+    display: flex;
+    gap: .4rem;
+}
+
+
+.janela-corpo {
+    padding: 1.2rem;
+    display: grid;
+    gap: .7rem;
 }
 
