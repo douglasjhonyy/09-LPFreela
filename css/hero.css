@@ -1,0 +1,43 @@
+/* Cabeçalho */
+
+.topo {
+    background: var(--tinta);
+    padding: 0 16px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+}
+
+.logo {
+    font-family: var(--titulo);
+    font-weight: 800;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.logo span{
+    color: goldenrod;
+}
+
+.nav nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav nav a {
+    color: #c9d3ea;
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+.nav nav .btn {
+    color: var(--tinta);
+    padding: .55rem 1.1rem;
+}
+
