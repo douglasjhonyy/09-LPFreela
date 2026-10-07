@@ -1,0 +1,33 @@
+/* Processo: aqui a numeração faz sentido, é uma sequência real */
+
+.passos {
+    list-style: none;
+    padding: 0 2rem ;
+    counter-reset: passo;
+    display: grid;
+    gap: 1.2rem;
+}
+
+.passos li {
+    counter-increment: passo;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.passos li::before {
+    content: counter(passo);
+    flex: none;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background: var(--cobalto);
+    color: var(--branco);
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+}
+
+.passos strong{
+    color: var(--tinta);
+}

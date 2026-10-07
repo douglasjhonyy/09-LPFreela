@@ -54,6 +54,7 @@ a {
     width: min(1080px, 100% -2rem);
     margin-inline: auto;
     
+    
 }
 
 h2{
@@ -64,6 +65,7 @@ h2{
 
 section{
     padding: 4.5rem 0;
+    
     
 }
 
