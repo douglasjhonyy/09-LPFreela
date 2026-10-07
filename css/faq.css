@@ -1,0 +1,25 @@
+/* PASSO 9: FAQ sem JavaScript (details/summary) */ 
+
+.faq{
+    padding: 2rem;
+    padding-top: 0;
+}
+
+details{
+    background: var(--branco);
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    padding: 1rem 1.3rem ;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+summary{
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--tinta);
+}
+
+details p{
+    margin-top: .7rem;
+}
