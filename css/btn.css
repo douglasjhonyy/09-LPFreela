@@ -11,6 +11,7 @@
     border: 0;
     cursor: pointer;
     transition: transform .15s;
+    
 }
 
 .btn:hover {

@@ -59,7 +59,10 @@
     gap: 3rem;
     align-items: center;
     padding: 2rem;
+    
 }
+
+
 
 .hero h1 {
     color: var(--branco);
