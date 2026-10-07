@@ -1,0 +1,12 @@
+.depoimento p{
+    font-size: 1.1rem;
+    color: var(--tinta);
+}
+
+.depoimento footer{
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--cobalto);
+    cursor: pointer;
+}
