@@ -41,3 +41,11 @@ textarea {
     width: 100%;
 }
 
+footer.rodape {
+    background: var(--tinta);
+    color: #9fb0d4;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: .9rem;
+    border-top: 1px solid #22345a;
+}
