@@ -18,10 +18,12 @@
     color: var(--branco);
     text-decoration: none;
     font-size: 2rem;
+    padding: 0 2rem ;
 }
 
 .logo span {
     color: goldenrod;
+
 }
 
 .nav nav {
@@ -56,7 +58,7 @@
     grid-template-columns: 1.1fr 0.9fr;
     gap: 3rem;
     align-items: center;
-    padding: 4rem 0 5rem;
+    padding: 2rem;
 }
 
 .hero h1 {

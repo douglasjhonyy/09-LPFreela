@@ -16,10 +16,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -27,6 +29,7 @@ body {
     color: var(--texto);
     background: var(--papel);
     line-height: 1.6;
+    
 }
 
 h1,
@@ -59,5 +62,6 @@ h2{
 
 section{
     padding: 4.5rem 0;
+    
 }
 

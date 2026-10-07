@@ -1,0 +1,27 @@
+.numeros{
+    background: var(--branco);
+    border-bottom: 1px solid var(--borda);
+    padding: 2rem ;
+    gap: 1.5rem;
+    
+   
+    
+}
+
+.numeros .container{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.numeros strong{
+    display: block;
+    font-family: var(--titulo);
+    font-size: 2.5rem;
+    color: var(--cobalto);
+    
+    
+}
